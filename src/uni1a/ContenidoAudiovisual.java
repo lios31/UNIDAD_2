@@ -1,14 +1,14 @@
 package uni1a;
 
 public abstract class ContenidoAudiovisual {
-    private static int contar = 0;
+    private static int contar = 0; // Contador estático para asignar IDs únicos
     private String titulo;
     private int duracionEnMinutos;
     private String genero;
     private int id;
 
     public ContenidoAudiovisual(String titulo, int duracionEnMinutos, String genero) {
-        this.id = contar++;
+        this.id = contar++; // Asignar un ID único
         this.titulo = titulo;
         this.duracionEnMinutos = duracionEnMinutos;
         this.genero = genero;
@@ -45,6 +45,7 @@ public abstract class ContenidoAudiovisual {
     public int getId() {
         return id;
     }
-    
+
+    // Método abstracto para mostrar detalles, que debe ser implementado por las subclases
     public abstract void mostrarDetalles();
 }
