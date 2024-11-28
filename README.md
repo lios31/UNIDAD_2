@@ -1,5 +1,4 @@
 # UNIDAD_2-Unidad_4
-Actividad Unidad 2
 # Sistema de Gestión de Contenidos Audiovisuales
 
 Este proyecto es una aplicación que permite gestionar películas, series de TV, documentales y sus actores, implementada utilizando los principios de programación orientada a objetos, el patrón MVC y los principios SOLID. Además, incluye lectura/escritura desde archivos CSV y pruebas unitarias con JUnit.
